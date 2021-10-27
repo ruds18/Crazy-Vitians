@@ -5,7 +5,7 @@
 }
 
 .bg{
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
 }
 
 .container{
@@ -14,14 +14,26 @@
     height: auto;
 }
 .logo img{
-  width: 100%;
-  max-width: 100px;
+  width: 90%;
+  max-width: 90px;
   height: auto;
+  border-radius: 50%;
 }
-.brand{
+/* .brand{
     font-size: 20px;
     font-weight: 300;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+.drop_down{
+    width: 538px;
+    background: #fff;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    height: 39px;
+    width: 690px;
+    border-radius: 24px;
+    height: 43px;
+    margin: 0 auto;
 }
 .nav_left {
     width: 50%;
@@ -46,7 +58,10 @@
     justify-content: space-between;
     align-items: center;
     vertical-align: center;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    height: 100px;
 }
+
 @media only screen and (max-width: 600px) {
     .brand{
         display: none;
